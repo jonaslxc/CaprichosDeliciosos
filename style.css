@@ -1,0 +1,95 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header */
+header {
+    background-color: #d8bfd8;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Header de página principal */
+h1 {
+    font-size: 3rem;
+    color: #4b0082;
+    margin-bottom: 0;
+}
+
+/* Contenido principal */
+.main-content {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado de secciones */
+h2 {
+    color: #4b0082;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Párrafos */
+p {
+    font-size: 1rem;
+    color: #555;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+/* Productos */
+.product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Imagen de productos */
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Títulos de productos */
+.product h3 {
+    font-size: 1.5rem;
+    color: #4b0082;
+}
+
+/* Precio de productos */
+.product p strong {
+    color: #d35400;
+}
+
+/* Video embebido */
+iframe {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #4b0082;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
